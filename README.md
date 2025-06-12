@@ -53,7 +53,7 @@ $router->get('/hello/{name}', function ($request) {
     $name = $request->get('name');
     return "Hello, {$name}!";
 });
-
+````php
 
 Now you have a Laravel-like folder structure and basic framework built with core PHP. This implementation includes:
 
@@ -66,23 +66,5 @@ Now you have a Laravel-like folder structure and basic framework built with core
 7. Service providers
 8. Environment variable loading
 
-To use this framework:
 
-1. Install Composer dependencies:
-    ``bash
-composer install
-
-
-2. Configure your web server (Apache or Nginx) to point to the `public` directory as the document root.
-
-3. Start building your application by adding models, controllers, and views following the Laravel-like pattern.
-
-This is a basic implementation that provides the foundation for a Laravel-like framework. You can extend it by adding more features as needed, such as:
-
-1. Middleware support
-2. More robust validation
-3. Authentication system
-4. Database migrations
-5. Cache systems
-6. Session management
 
