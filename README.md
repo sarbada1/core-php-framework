@@ -31,7 +31,7 @@ cd public
 
 # Start the built-in PHP server
 php -S localhost:8000
-
+```
 ## Directory Structure
 
 - `app/` - Application code
