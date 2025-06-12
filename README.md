@@ -53,7 +53,7 @@ $router->get('/hello/{name}', function ($request) {
     $name = $request->get('name');
     return "Hello, {$name}!";
 });
-````php
+```
 
 Now you have a Laravel-like folder structure and basic framework built with core PHP. This implementation includes:
 
